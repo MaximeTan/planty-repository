@@ -1,0 +1,4 @@
+[27-Jun-2023 11:27:20 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\utilities\functions.php on line 225
+[27-Jun-2023 11:27:20 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[27-Jun-2023 11:27:21 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\utilities\functions.php on line 225
+[27-Jun-2023 11:27:21 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
