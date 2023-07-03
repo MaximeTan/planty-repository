@@ -2,3 +2,28 @@
 [27-Jun-2023 11:27:20 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
 [27-Jun-2023 11:27:21 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\utilities\functions.php on line 225
 [27-Jun-2023 11:27:21 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[03-Jul-2023 14:55:16 UTC] PHP Warning:  Undefined array key "url" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 127
+[03-Jul-2023 14:55:16 UTC] PHP Warning:  Undefined array key "path" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 128
+[03-Jul-2023 14:57:09 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[03-Jul-2023 14:57:09 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[03-Jul-2023 14:57:09 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[03-Jul-2023 14:57:09 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[03-Jul-2023 14:57:09 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[03-Jul-2023 15:13:04 UTC] PHP Warning:  file_get_contents(C:\Users\maxim\Local Sites\planty\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\maxim\Local Sites\planty\app\public\wp-includes\functions.php on line 6651
+[03-Jul-2023 15:13:12 UTC] PHP Warning:  file_get_contents(C:\Users\maxim\Local Sites\planty\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\maxim\Local Sites\planty\app\public\wp-includes\functions.php on line 6651
+[03-Jul-2023 19:32:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oe_library_template_selector() in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\ocean-extra\includes\preloader\customizer.php:307
+Stack trace:
+#0 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): Ocean_Preloader_Customizer->customizer_options(Object(WP_Customize_Manager))
+#1 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-customize-manager.php(934): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->wp_loaded('')
+#5 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\maxim\Local Sites\planty\app\public\wp-settings.php(645): do_action('wp_loaded')
+#8 C:\Users\maxim\Local Sites\planty\app\public\wp-config.php(94): require_once('C:\\Users\\maxim\\...')
+#9 C:\Users\maxim\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\maxim\\...')
+#10 C:\Users\maxim\Local Sites\planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\maxim\\...')
+#11 C:\Users\maxim\Local Sites\planty\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\maxim\\...')
+#12 {main}
+  thrown in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\ocean-extra\includes\preloader\customizer.php on line 307
