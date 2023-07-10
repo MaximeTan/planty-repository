@@ -15,3 +15,9 @@ endif;
 add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 
 // END ENQUEUE PARENT ACTION
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
+function theme_enqueue_styles()
+{
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+   
+}

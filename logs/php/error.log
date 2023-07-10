@@ -27,3 +27,11 @@ Stack trace:
 #11 C:\Users\maxim\Local Sites\planty\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\maxim\\...')
 #12 {main}
   thrown in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\ocean-extra\includes\preloader\customizer.php on line 307
+[04-Jul-2023 10:07:34 UTC] PHP Warning:  Undefined array key "data" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 175
+[04-Jul-2023 10:07:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[04-Jul-2023 12:47:50 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
+[04-Jul-2023 12:47:50 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
+[04-Jul-2023 12:47:58 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
+[04-Jul-2023 12:47:58 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
+[04-Jul-2023 12:48:07 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
+[04-Jul-2023 12:48:08 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22

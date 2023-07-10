@@ -10,4 +10,6 @@ Version: 3.4.5.1688412745
 Updated: 2023-07-03 21:32:25
 
 */
-
+h2 {
+    color: red!important;
+}
