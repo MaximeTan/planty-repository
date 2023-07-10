@@ -1,0 +1,38 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+}
+#menu-item-48 {
+	background-color: #DC9F96;
+	
+}
+#menu-item-48 a {
+	color: #FFFFFF;
+}
+#menu-item-48 a:hover {
+	background-color: #C02E44;
+}.wpforms-submit-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wpforms-submit-container button {
+	background-color: #E0B9B4!important;
+}
+.wpforms-submit-container button:hover {
+	background-color: #C02E44!important;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
