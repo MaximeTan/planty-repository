@@ -1,0 +1,74 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1689402455
+Updated: 2023-07-15 08:27:35
+
+*/
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+#footer {
+    display: none;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: 800!important;
+    ;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+#menu-item-48 {
+	background-color: #DC9F96;
+	
+}
+#menu-item-48 a {
+	color: #FFFFFF;
+}
+#menu-item-48 a:hover {
+	background-color: #C02E44;
+}.wpforms-submit-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wpforms-submit-container button {
+	background-color: #E0B9B4!important;
+}
+.wpforms-submit-container button:hover {
+	background-color: #C02E44!important;
+}
+#wrap #content-wrap {
+	padding: 0; 
+}
+#menu-item-49 a:hover {
+    font-weight: 700;
+    font-size: 14px;
+    transform: translate(22px, -1px);
+}
+
+.wpforms-field-container label {
+    font-family: 'Syne', sans-serif;
+}

@@ -37,3 +37,40 @@ Stack trace:
 [04-Jul-2023 12:48:08 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\maxim\Local Sites\planty\app\public/wp-content/themes/oceanwp-child/css/theme.css in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\oceanwp-child\functions.php on line 22
 [10-Jul-2023 19:56:56 UTC] PHP Warning:  Undefined array key "data" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 175
 [10-Jul-2023 19:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[13-Jul-2023 12:28:26 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 12:28:44 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 12:36:46 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 12:37:13 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 12:38:46 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 12:40:48 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[13-Jul-2023 14:48:39 UTC] PHP Fatal error:  Uncaught ValueError: Unknown format specifier "Â" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Notices.php:124
+Stack trace:
+#0 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Notices.php(124): sprintf('<strong>Tarific...', 'https://wpforms...')
+#1 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Notices.php(36): WPForms\Integrations\Stripe\Admin\Notices::get_non_pro_license_level_notice()
+#2 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Settings.php(245): WPForms\Integrations\Stripe\Admin\Notices::get_fee_notice()
+#3 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Settings.php(149): WPForms\Integrations\Stripe\Admin\Settings->get_heading_content()
+#4 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): WPForms\Integrations\Stripe\Admin\Settings->register_settings_fields(Array)
+#5 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#6 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-settings.php(536): apply_filters('wpforms_setting...', Array)
+#7 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-settings.php(560): WPForms_Settings->get_registered_settings('payments')
+#8 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-settings.php(578): WPForms_Settings->get_settings_fields('payments')
+#9 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): WPForms_Settings->output('')
+#10 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\includes\admin\class-menu.php(336): do_action('wpforms_admin_p...')
+#13 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(308): WPForms_Admin_Menu->admin_page('')
+#14 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#15 C:\Users\maxim\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\Users\maxim\Local Sites\planty\app\public\wp-admin\admin.php(259): do_action('wpforms_page_wp...')
+#17 {main}
+  thrown in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Stripe\Admin\Notices.php on line 124
+[15-Jul-2023 06:27:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[15-Jul-2023 06:27:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[15-Jul-2023 06:27:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[15-Jul-2023 06:27:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[15-Jul-2023 06:27:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[15-Jul-2023 06:27:35 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[15-Jul-2023 06:27:35 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[15-Jul-2023 06:27:35 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[15-Jul-2023 06:27:35 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[15-Jul-2023 06:27:35 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
