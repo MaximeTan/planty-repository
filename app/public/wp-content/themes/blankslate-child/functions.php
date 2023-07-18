@@ -22,3 +22,17 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+add_filter( 'wp_nav_menu_primary-menu_items', 'prefix_add_menu_item', 10, 2 );
+/**
+ * Add Menu Item to a specific place in the menu
+ */
+
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+    // var_dump($args -> menu ); 
+    if (is_user_logged_in() && $args->menu == 'navigation') {
+        $items .= '<li><a href="'. get_admin_url() .'">Admin</a></li>';
+    }
+    return $items;
+}

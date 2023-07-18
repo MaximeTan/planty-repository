@@ -10,15 +10,36 @@ Version: 2023.1689402455
 Updated: 2023-07-15 08:27:35
 
 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 *, ::before, ::after {
 	padding: 0;
 	margin: 0;
 }
-
+:root {
+    /* Font-size */
+  
+    --fs-12: 0.75rem;
+    --fs-14: 0.875rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-22: 1.375rem;
+    --fs-24: 1.5rem;
+    --fs-30: 1.875rem;
+    --fs-38: 2.375rem;
+    --fs-40: 2.5rem;
+    --fs-48: 3rem;
+}
 body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto; 
+    font-size: var(--fs-20);
 }
 
 #footer {
@@ -72,3 +93,45 @@ h1 {
 .wpforms-field-container label {
     font-family: 'Syne', sans-serif;
 }
+.commerce {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+}
+.input-number {
+    max-width: 50px;
+    height: 56px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.boutons-plus-moins {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.bouton-plus-moins {
+    height: 100% ;
+    width: 50px;
+    color: #FFFFFF;
+    background-color: #DC9F96;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bouton-plus-moins:first-child {
+    border-bottom: 1px solid #FFFFFF; 
+    border-bottom-right-radius: 0;
+}
+.bouton-plus-moins:last-child {
+    border-top: 1px solid #FFFFFF; 
+    border-top-right-radius: 0;
+}
+
