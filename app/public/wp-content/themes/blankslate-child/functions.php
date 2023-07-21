@@ -32,7 +32,7 @@ add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
     // var_dump($args -> menu ); 
     if (is_user_logged_in() && $args->menu == 'navigation') {
-        $items .= '<li><a href="'. get_admin_url() .'">Admin</a></li>';
+        $items .= '<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item parent hfe-creative-menu"><a class="hfe-menu-item" href="'. get_admin_url() .'">Admin</a ></li>';
     }
     return $items;
 }

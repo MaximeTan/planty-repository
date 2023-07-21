@@ -63,14 +63,23 @@ h1 {
 
 #menu-item-48 {
 	background-color: #DC9F96;
-	
+    order: 3;
 }
 #menu-item-48 a {
 	color: #FFFFFF;
 }
 #menu-item-48 a:hover {
 	background-color: #C02E44;
-}.wpforms-submit-container {
+}
+
+#menu-item-47 {
+    order: 2;
+}
+#menu-item-49 {
+    order: 1;
+}
+
+.wpforms-submit-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -84,7 +93,7 @@ h1 {
 #wrap #content-wrap {
 	padding: 0; 
 }
-#menu-item-49 a:hover {
+#menu-item-49 a:hover, #menu-item-47 a:hover {
     font-weight: 700;
     font-size: 14px;
     transform: translate(22px, -1px);
@@ -92,7 +101,10 @@ h1 {
 
 .wpforms-field-container label {
     font-family: 'Syne', sans-serif;
+    
 }
+
+/* page commmander */
 .commerce {
     display: flex;
     flex-direction: row;
@@ -134,4 +146,18 @@ input[type=number] {
     border-top: 1px solid #FFFFFF; 
     border-top-right-radius: 0;
 }
+#bouton-commander:hover {
+    background-color: #C02E44;
+}
+/* page commander / section formulaire */
 
+.formulaire-livraison .wpforms-field-container label {
+    color: #FFFFFF;
+    font-weight: 400
+}
+#wpforms-861-field_5-container, 
+#wpforms-861-field_7-container,
+#wpforms-861-field_10, 
+.wpforms-field-label {
+    border-right: solid 1px #FFFFFF
+}
