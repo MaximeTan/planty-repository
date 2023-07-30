@@ -209,3 +209,16 @@ Stack trace:
 #30 C:\Users\maxim\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\maxim\\...')
 #31 {main}
   thrown in C:\Users\maxim\Local Sites\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 32
+[30-Jul-2023 12:25:51 UTC] PHP Warning:  Undefined array key "data" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 175
+[30-Jul-2023 12:25:51 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[30-Jul-2023 12:26:41 UTC] PHP Warning:  Undefined array key "data" in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 175
+[30-Jul-2023 12:26:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\maxim\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[30-Jul-2023 18:38:19 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:38:20 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:38:20 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:38:24 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:39:15 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:39:16 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:39:20 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:39:23 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
+[30-Jul-2023 18:39:23 UTC] PHP Warning:  Constant WP_MEMORY_LIMIT already defined in C:\Users\maxim\Local Sites\planty\app\public\wp-config.php on line 104
