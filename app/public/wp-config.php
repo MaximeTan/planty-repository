@@ -82,6 +82,15 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
+
+define('AUTH_KEY',         'A1w8J4rvBgxl6ZcdrLkGYBSe1K7FYyys1U6T0pywvwM7AXTImwm88xWlM3eEM+D5SgbQgbW7jwMgbjL/vYvD4w==');
+define('SECURE_AUTH_KEY',  'wTWhpZ1UI1g0x1zslb2ONGrPpYaGnfWITTn9KklewujRzwKwo6VT2lpZ6IS5xmKxFStUngtxn3QVBtPVKsVk5A==');
+define('LOGGED_IN_KEY',    'OuwtjVeXJc4BjZEI05KVC8U3SZv2tuuz4FLGiQWpz+bT3+CxzlUmMeZ3ZunGtANcWGKP/yU1blROROpiY75jyQ==');
+define('NONCE_KEY',        'aelGr4j0TF/r1IwnRX2hsT2lBhLJa5u8QCNPRTcqoConLgTHa1Nl9RKVmHqd8LYk9xUiUDFiuaWRx0spJ71AGg==');
+define('AUTH_SALT',        'KsEHomCCjX+uXJEs+jJbj8Sttqpdkl8bjpFDOaqovTLVKHdGRm12Q0YbOrqsfl7o+e78+lWFZzrvU1ZhbVVuXQ==');
+define('SECURE_AUTH_SALT', 'oxT2jy3Ugbw1p31FmJhWk7F9oxTwObRnuFrlYU6fT73qeaHAq5v75ibhsHgvPHH0hRQZnCbLT2G99lgMU5D3RA==');
+define('LOGGED_IN_SALT',   'kKVQ6NuTWOX2M5EJuS8kFtVEfiWRvEs2jSvG4SJ6YeHvrZ5GwE5W95Urp6/QhvghLbVu9GuAg0nTDAStEed/HA==');
+define('NONCE_SALT',       'RIskG4cxJ3GC+r3XW/RfZq9tXgGR8QFkI25db/OWYN2EnDvGvK1a4xU455jPzej+53O1A3W5HfGLr41NrOCa6Q==');
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
@@ -92,12 +101,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
-define('AUTH_KEY',         '4m6g4KX+RSr+DDXonbo/1vx8uA8VZihw1OABX96KXJjFW8rjW1dVa6xPopi2puSWMeaFlpB4Ttv17ve0/eFMKA==');
-define('SECURE_AUTH_KEY',  '07bzzMudJBfEWUqws8bV+GzGA03d1/ClpnDP+o77FfMg2SkwIaJGdREYgahcAkqb+pb2iutXmF8wv9snt9r4xw==');
-define('LOGGED_IN_KEY',    '1Pg2PmSCvwBBfGG5QEbNGomKgygGYBOIXV1N8axCjdt1u55orDSqic0SJXR8yB28g1msSvHCP3dEm/3AHoRtBw==');
-define('NONCE_KEY',        'z6UPSgRXVSY+MVDMVExWaVdmkxqPeHrOAdiqGX/qRykqhGv/2n9oM+ZDahOcsAgjof73iCA1tUYF6tjljlqeAQ==');
-define('AUTH_SALT',        'HLbT3+KhMfCOovW+IOp0IM76Pzwl+wWn2wdf9PY6g7X8Ty1dVZ4oTF2wgB0Sv8/mvwWKhs5MTqnU3psfKD106g==');
-define('SECURE_AUTH_SALT', 'AmbERg1U3ehEd9aWfLR1NUku7tFaF6BXXX4e5VTpavbxAxfAjVAc7dyJNyHI2lBA/b3Y/z3qsG2nOjZeTY80Ow==');
-define('LOGGED_IN_SALT',   'eRNlfwlXJuBeKe9NTspXm/7GszoHJbe6wya5ON4/8VUJI+PaCurkUuYyhVo5t+w61EUSiX2YQvYTRQAliaULdA==');
-define('NONCE_SALT',       'QwdEprLjTIfU9Vq33eBqUI1LsFV6AABvZcImUc4zzzeuW1jxqIomDw5GofMF5c78u7hZ2Yn4fjYxirBRr/jZHg==');

@@ -306,11 +306,12 @@ input[type=number] {
 }
 @media (max-width: 321px) {
     /* font-size */
+    
     h1 {
-        font-size: var(--fs-20);
+        font-size: var(--fs-22);
     }
     h2 {
-        font-size: var(--fs-18);
+        font-size: var(--fs-20);
     }
     
     h3 {
@@ -320,7 +321,7 @@ input[type=number] {
     p {
         font-size: var(--fs-12);
     }
-}
     
+}
     
     
